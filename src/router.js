@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from './views/HomeView.vue'
 import MissionMapView from './views/MissionMapView.vue'
-import ModuleView from './views/ModuleView.vue'
+import ModuleView from './views/ModuleLearningView.vue'
 import SummaryView from './views/SummaryView.vue'
 import TeacherDashboardView from './views/TeacherDashboardView.vue'
 

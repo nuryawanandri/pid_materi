@@ -36,7 +36,7 @@ Konfigurasi SPA sudah tersedia di `vercel.json`.
 
 ## Mengelola konten
 
-Dashboard Guru dapat mengubah judul, pengantar, warna, soal, studi kasus, pilihan jawaban, serta URL video pada Misi 5. Perubahan tersimpan di browser yang sedang digunakan.
+Dashboard Guru dapat melihat statistik pengerjaan pada perangkat yang sama serta mengubah judul, pengantar, warna, soal, studi kasus, dan pilihan jawaban. Perubahan tersimpan di browser yang sedang digunakan.
 
 Gunakan **Ekspor JSON** untuk membuat berkas cadangan atau memindahkan konten ke perangkat lain. Gunakan **Impor JSON** untuk memuatnya kembali. Karena deployment Vercel bersifat statis, perubahan dari dashboard tidak menulis langsung ke berkas di server dan tidak otomatis dibagikan ke perangkat lain.
 
