@@ -1,0 +1,5 @@
+<script setup>
+import { principles } from '../store/learningStore'
+const evaluationUrl = import.meta.env.VITE_EVALUATION_URL || ''
+</script>
+<template><section class="summary-screen content-screen"><div class="celebration"></div><p class="eyebrow centered"><span></span>SEMUA MISI SELESAI<span></span></p><h1>Kamu siap menggunakan AI<br><em>dengan lebih bijak.</em></h1><p class="summary-lead">Bawa empat bekal JEDA setiap kali menggunakan atau membagikan hasil AI.</p><div class="jeda-summary"><article v-for="item in principles" :key="item.letter" :style="{'--color':item.color}"><b>{{ item.letter }}</b><div><h2>{{ item.title }}</h2><p>{{ item.text }}</p></div></article></div><div class="pledge"><span></span><div><small>REFLEKSI</small><h2>“Sebelum menggunakan AI, saya akan berhenti sejenak dan melakukan JEDA.”</h2></div></div><div class="summary-actions"><RouterLink class="secondary-button" to="/missions">Pelajari kembali</RouterLink><a v-if="evaluationUrl" class="primary-button" :href="evaluationUrl">Ke Arena Cerdas Cermat →</a></div></section></template>
